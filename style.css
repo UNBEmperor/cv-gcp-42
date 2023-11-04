@@ -1,0 +1,67 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+#container {
+    min-height: 100%;
+    position: relative;
+}
+
+#header, #footer {
+    background-color: rgb(248, 0, 0);
+    color: white;
+    text-align: center;
+    vertical-align: auto;
+}
+
+#header {
+    padding: 42px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0px;    
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+#isi {
+    padding: 50px;
+    min-height: 700px;
+}
+
+.judul {
+    text-align: center;
+}
+
+/* Beranda */
+#isi p {
+    font-size: 16px;
+}
+
+#isi img.foto_diri {
+    float: left;
+    padding-right: 10px;
+}
+
+#isi ul {
+    padding-left: 19px;
+}
+
+p {
+    text-align: justify;
+    overflow: hidden;
+}
+
+.perkenalan_diri {
+    text-align: center;
+}
+
+#riwayat_pendidikan {
+    margin-top: 10px;
+}
+

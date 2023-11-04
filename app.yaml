@@ -3,10 +3,16 @@ api_version: 1
 threadsafe: true
 
 handlers:
-  - url: /
+  - url: /img
+    static_dir: www/img
+
+  - url: /style
+    static_dir: www/style
+
+  - url: /(.*\.(html|css|js|png|jpg|ico))$
+    static_files: www/\1
+    upload: www/.*\.(html|css|js|png|jpg|ico)$
+
+  - url: /.*
     static_files: www/index.html
     upload: www/index.html
-
-  - url: /(.*)
-    static_files: www/\1
-    upload: www/(.*)
